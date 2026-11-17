@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>skycast</title>
+
+  <link rel="stylesheet" href="resat.css">
+  <link rel="stylesheet" href="thems.css">
+  <link rel="stylesheet" href="skycaststayle.css">
+
+</head>
+
+<body>
+  <header class="skycast">
+
+    <div class="section1">
+      <span>☀️</span>
+      <h1>skycast</h1>
+    </div>
+
+    <form class="search">
+      <input type="text" placeholder="Search for a city…">
+      <button type="button"> search</button>
+    </form>
+
+    <nav>
+      <a href="#">Today</a>
+      <a href="#">Forecast</a>
+    </nav>
+
+  </header>
+
+  <main>
+
+
+
+    <section class="current">
+
+      <span class="badge">Updated 10:30</span>
+      <div class="current-top">
+
+        <div class="weather-info">
+          <p>Current weather</p>
+          <h2>London, UK</h2>
+
+          <div class="current-date ">
+            <small>Monday, 16 September</small>
+          </div>
+        </div>
+
+        <img src="wether.png" alt="wether">
+      </div>
+
+      <div class="current-bottom">
+        <div class="temp">
+          <h3>18</h3>
+          <span>°C</span>
+        </div>
+
+
+
+        <div class="weather-info1">
+          <p>Partly cloudy</p>
+          <small>Feels like 17°C</small>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="details">
+      <p class="label">Today</p>
+      <h4 class="title">Weather details</h4>
+
+      <div class="grid">
+        <div class="item">
+          <span class="icon" role="img" aria-label="Humidity">💧</span>
+          <p class="name">Humidity</p>
+          <p class="value">72%</p>
+        </div>
+
+        <div class="item">
+          <span class="icon" role="img" aria-label="Wind">🌬️</span>
+          <p class="name">Wind</p>
+          <p class="value">14 km/h</p>
+        </div>
+
+        <div class="item">
+          <span class="icon" role="img" aria-label="Visibility">☀️</span>
+          <p class="name">Visibility</p>
+          <p class="value">10 km</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="forecast">
+      <p class="label">Forecast</p>
+      <h5 class="title">Next few hours</h5>
+
+      <div class="hours">
+        <div class="hour-active">
+          <p class="time">Now</p>
+          <span class="icons">⛅</span>
+          <p class="tempe">18°</p>
+        </div>
+
+        <div class="hour">
+          <p class="time">12 PM</p>
+          <span class="icons">🌥️</span>
+          <p class="tempe">19°</p>
+        </div>
+
+        <div class="hour">
+          <p class="time">2 PM</p>
+          <span class="icons">🌧️</span>
+          <p class="tempe">18°</p>
+        </div>
+
+        <div class="hour">
+          <p class="time">4 PM</p>
+          <span class="icons">🌤️</span>
+          <p class="tempe">17°</p>
+        </div>
+      </div>
+
+
+    </section>
+
+    <section class="week">
+      <p class="label">This week</p>
+      <h6 class="title">5-day forecast</h6>
+
+      <div class="days">
+        <div class="day">
+          <p class="name">Tue</p>
+          <span class="icon">⛅</span>
+          <p class="range">19° / 12°</p>
+        </div>
+
+        <div class="day">
+          <p class="name">Wed</p>
+          <span class="icon">🌧️</span>
+          <p class="range">16° / 10°</p>
+        </div>
+
+        <div class="day">
+          <p class="name">Thu</p>
+          <span class="icon">🌥️</span>
+          <p class="range">17° / 11°</p>
+        </div>
+
+        <div class="day">
+          <p class="name">Fri</p>
+          <span class="icon">☀️</span>
+          <p class="range">21° / 13°</p>
+        </div>
+
+        <div class="day">
+          <p class="name">Sat</p>
+          <span class="icon">🌤️</span>
+          <p class="range">20° / 12°</p>
+        </div>
+      </div>
+
+    </section>
+  </main>
+</body>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <p class="footer-title">Skycast</p>
+      <p class="footer-text">Simple weather for everyday planning.</p>
+    </div>
+
+    <p class="footer-note">Fictional data for a student project.</p>
+
+    <p class="footer-copy">© 2025 Skycast</p>
+  </div>
+</footer>
+
+</html>
