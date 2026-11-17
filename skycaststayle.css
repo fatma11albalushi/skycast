@@ -2,8 +2,8 @@
 
 h1,
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -103,7 +103,11 @@ nav a:hover,
 nav a.active {
   color: #176BCE;
 }
-
+.main-content {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
 /*section 1*/
 .badge {
   display: inline-block;
@@ -125,7 +129,7 @@ nav a.active {
 }
 
 .current {
-  margin: 29px 80px 80px 30px;
+  margin: 0 0 30px 0;
   padding: 24px;
   border: 1px;
   border-radius: 10px;
@@ -238,7 +242,7 @@ nav a.active {
 
 .details {
   /*section 2*/
-  margin: 29px 80px 80px 30px;
+  margin: 0 0 30px 0;
 }
 
 .label {
@@ -302,7 +306,7 @@ nav a.active {
 
 .forecast {
   /*section 3*/
-  margin: 29px 80px 90px 30px;
+  margin: 0 0 30px 0;
 }
 
 .hours {
@@ -381,7 +385,7 @@ nav a.active {
 
 .week {
   /*setion 4*/
-  margin: 29px 80px 90px 30px;
+  margin: 0 0 30px 0;
 }
 
 .week .days {
